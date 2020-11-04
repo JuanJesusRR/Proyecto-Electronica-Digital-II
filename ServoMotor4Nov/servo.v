@@ -7,7 +7,7 @@ module servo(
     output PWM
 	
 	 );
-	 
+	 //esto es una prueba
 divisorfrec	   divisorfrec0   ( .clk(clk),.CLKOUT(CLKOUT));
 divisorfrec1	divisorfrec10	(.clk(clk),	.CLKOUT2(CLKOUT2));
 divisorfrecgen  divisorfrecgen0  ( .CLKOUT(CLKOUT),.CLKOUT1(CLKOUT1));
